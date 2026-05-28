@@ -3,7 +3,7 @@
 #include <iostream>
 void Stack::push(int item)
 {
-    if (top == capacity) throw std::runtime_error("capacity exceeed");
+    if (top == capacity) throw std::runtime_error("stack is full");
     items[top] = item;
     ++top;
 }

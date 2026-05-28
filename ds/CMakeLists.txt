@@ -7,4 +7,5 @@ target_include_directories(ds
 target_sources(ds 
 PRIVATE
     stack.cpp
+    queue.cpp
 )
